@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Free Fire File Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🔥 Free Fire File Store 🔥</h1>
+    <button onclick="toggleTheme()">🌓 Toggle Theme</button>
+  </header>
+
+  <section class="container">
+    <div class="card" onclick="previewFile('ff1.jpg', 'Aim Bot File - Improves targeting accuracy')">
+      <img src="ff1.jpg" alt="Aim Bot">
+      <h3>Aim Bot File</h3>
+      <p>High-accuracy aim bot script</p>
+      <button onclick="buyNow('Aim Bot File')">Buy Now</button>
+    </div>
+    <div class="card" onclick="previewFile('ff2.jpg', 'Auto Headshot Config - Instant Headshots')">
+      <img src="ff2.jpg" alt="Auto Headshot">
+      <h3>Auto Headshot</h3>
+      <p>Instant headshot config</p>
+      <button onclick="buyNow('Auto Headshot')">Buy Now</button>
+    </div>
+    <div class="card" onclick="previewFile('ff3.jpg', 'Wall Hack - See enemies through walls')">
+      <img src="ff3.jpg" alt="Wall Hack">
+      <h3>Wall Hack</h3>
+      <p>See enemies through walls</p>
+      <button onclick="buyNow('Wall Hack')">Buy Now</button>
+    </div>
+  </section>
+
+  <section id="filePreview" class="preview-section">
+    <h2>🕵️ File Preview</h2>
+    <!-- JS will fill this -->
+  </section>
+
+  <section id="downloadArea" class="download-section">
+    <!-- Download button will show here -->
+  </section>
+
+  <footer>
+    <p>&copy; 2025 FF File Shop | SK_8220</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
